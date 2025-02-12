@@ -86,8 +86,8 @@ body:
       - Social and Communication
       - VPNs, Security, and Privacy
       - System Tools
-    validations:
-      required: true
+  validations:
+    required: true
 - type: textarea
   id: links
   attributes:

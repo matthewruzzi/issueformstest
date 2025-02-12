@@ -34,15 +34,6 @@ body:
       - "No"
   validations:
     required: true
-- type: textarea
-  id: proposed-status-old
-  attributes:
-    label: Proposed App Status
-    description: |
-      What's the current app status based off of current discussion or testing?
-      You can check the different statused here: https://github.com/ThatGuySam/doesitarm/blob/master/README.md#legend
-  validations:
-    required: true
 - type: dropdown
   id: proposed-status
   attributes:
@@ -57,15 +48,6 @@ body:
       - 🔶 Unknown, more info needed
   validations:
     required: true
-- type: textarea
-  id: proposed-category-old
-  attributes:
-    label: Proposed App Category
-    description: |
-      What category should the app go under?
-      Try to avoid the generic categories of Productivity unless no other category fits.
-  validations:
-      required: true
 - type: dropdown
   id: proposed-category
   attributes:
